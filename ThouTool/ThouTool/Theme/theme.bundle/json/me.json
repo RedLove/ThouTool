@@ -1,0 +1,51 @@
+{
+    "datas":{
+        "list":[
+            [
+             {
+             "title":"点击登录",
+             "icon":"me/me_icon_userface_normal",
+             "push":"ThouLoginViewController",
+             "intro":"登录后您可享受更多特权"
+             }
+            ],
+            [
+             {
+             "title":"修改密码",
+             "icon":"me/changepassword",
+             "push":"ThouRegisterViewController",
+             "intro":""
+             },
+             {
+             "title":"我的问答",
+             "icon":"me/debate",
+             "push":"ThouMyQuestionsViewController",
+             "intro":""
+             },
+             {
+             "title":"关于我们",
+             "icon":"me/aboutus",
+             "push":"ThouAboutusViewController",
+             "intro":""
+             },
+             {
+             "title":"免责声明",
+             "icon":"me/disclaimer",
+             "push":"ThouDangerTipViewController",
+             "intro":""
+             }
+             
+            ],
+            [
+             {
+                "title":"设置",
+                "icon":"me/upinstallput",
+                "push":"ThouSettingViewController",
+                "intro":""
+             }
+             
+            ]
+            
+        ]
+    }
+}
