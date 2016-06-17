@@ -28,6 +28,13 @@
 + (NSString *)md5:(NSString *)str;
 
 /**
+ *  获取一个UUID
+ *
+ *  @return UUID字符串
+ */
++ (NSString*)uuid;
+
+/**
  *  颜色码转颜色
  *
  *  @param stringToConvert 十六进制颜色值
@@ -134,14 +141,6 @@
  */
 +(NSArray*)searchStatus:(NSString*)keywords;
 
-/**
- *  真实股票代码
- *
- *  @param keyword 关键词
- *
- *  @return 股票代码
- */
-+(NSString*)stockCodeWithKeyword:(NSString*)keyword;
 /**
  *  延迟执行
  *

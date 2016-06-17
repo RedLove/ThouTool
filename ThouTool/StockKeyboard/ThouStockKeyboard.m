@@ -2,7 +2,7 @@
 //  ThouStockKeyboard.m
 //  ThouTool
 //
-//  Created by Thou on 16/3/7.
+//  Created by thou on 16/3/7.
 //  Copyright © 2016年 thou. All rights reserved.
 //  自定义键盘
 

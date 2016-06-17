@@ -7,24 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3201FEE11D14072F00AC38A6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3201FEDF1D14072F00AC38A6 /* Settings.bundle */; };
 		3202B0DE1D017C40001E7F9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202B0DD1D017C40001E7F9D /* main.m */; };
 		3202B0E11D017C40001E7F9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202B0E01D017C40001E7F9D /* AppDelegate.m */; };
 		3202B0E71D017C40001E7F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3202B0E51D017C40001E7F9D /* Main.storyboard */; };
 		3202B0E91D017C40001E7F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3202B0E81D017C40001E7F9D /* Assets.xcassets */; };
 		3202B0EC1D017C40001E7F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3202B0EA1D017C40001E7F9D /* LaunchScreen.storyboard */; };
 		3202B0F71D017C40001E7F9D /* ThouToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202B0F61D017C40001E7F9D /* ThouToolTests.m */; };
-		3202B1F21D0195F4001E7F9D /* delete_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1AB1D0195F4001E7F9D /* delete_keyboard@2x.png */; };
-		3202B1F31D0195F4001E7F9D /* delete_keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1AC1D0195F4001E7F9D /* delete_keyboard@3x.png */; };
-		3202B1F41D0195F4001E7F9D /* down_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1AD1D0195F4001E7F9D /* down_keyboard@2x.png */; };
-		3202B1F51D0195F4001E7F9D /* down_keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1AE1D0195F4001E7F9D /* down_keyboard@3x.png */; };
-		3202B1F61D0195F4001E7F9D /* shift_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1AF1D0195F4001E7F9D /* shift_keyboard@2x.png */; };
-		3202B1F71D0195F4001E7F9D /* shift_keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1B01D0195F4001E7F9D /* shift_keyboard@3x.png */; };
-		3202B1F81D0195F4001E7F9D /* shift_keyboard_alwaysUP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1B11D0195F4001E7F9D /* shift_keyboard_alwaysUP@2x.png */; };
-		3202B1F91D0195F4001E7F9D /* shift_keyboard_alwaysUP@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1B21D0195F4001E7F9D /* shift_keyboard_alwaysUP@3x.png */; };
-		3202B1FA1D0195F4001E7F9D /* shift_keyboard_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1B31D0195F4001E7F9D /* shift_keyboard_up@2x.png */; };
-		3202B1FB1D0195F4001E7F9D /* shift_keyboard_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1B41D0195F4001E7F9D /* shift_keyboard_up@3x.png */; };
-		3202B1FC1D0195F4001E7F9D /* trash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1B51D0195F4001E7F9D /* trash@2x.png */; };
-		3202B1FD1D0195F4001E7F9D /* trash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3202B1B61D0195F4001E7F9D /* trash@3x.png */; };
 		3202B1FE1D0195F4001E7F9D /* UITextField+ExtendRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202B1B91D0195F4001E7F9D /* UITextField+ExtendRange.m */; };
 		3202B1FF1D0195F4001E7F9D /* UITextView+ExtendRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202B1BC1D0195F4001E7F9D /* UITextView+ExtendRange.m */; };
 		3202B2001D0195F4001E7F9D /* ThouStockKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202B1BE1D0195F4001E7F9D /* ThouStockKeyboard.m */; };
@@ -57,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3201FEDF1D14072F00AC38A6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		3202B0D91D017C40001E7F9D /* ThouTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThouTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3202B0DD1D017C40001E7F9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3202B0DF1D017C40001E7F9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,18 +58,6 @@
 		3202B0F21D017C40001E7F9D /* ThouToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThouToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3202B0F61D017C40001E7F9D /* ThouToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThouToolTests.m; sourceTree = "<group>"; };
 		3202B0F81D017C40001E7F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3202B1AB1D0195F4001E7F9D /* delete_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_keyboard@2x.png"; sourceTree = "<group>"; };
-		3202B1AC1D0195F4001E7F9D /* delete_keyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_keyboard@3x.png"; sourceTree = "<group>"; };
-		3202B1AD1D0195F4001E7F9D /* down_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_keyboard@2x.png"; sourceTree = "<group>"; };
-		3202B1AE1D0195F4001E7F9D /* down_keyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_keyboard@3x.png"; sourceTree = "<group>"; };
-		3202B1AF1D0195F4001E7F9D /* shift_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shift_keyboard@2x.png"; sourceTree = "<group>"; };
-		3202B1B01D0195F4001E7F9D /* shift_keyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shift_keyboard@3x.png"; sourceTree = "<group>"; };
-		3202B1B11D0195F4001E7F9D /* shift_keyboard_alwaysUP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shift_keyboard_alwaysUP@2x.png"; sourceTree = "<group>"; };
-		3202B1B21D0195F4001E7F9D /* shift_keyboard_alwaysUP@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shift_keyboard_alwaysUP@3x.png"; sourceTree = "<group>"; };
-		3202B1B31D0195F4001E7F9D /* shift_keyboard_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shift_keyboard_up@2x.png"; sourceTree = "<group>"; };
-		3202B1B41D0195F4001E7F9D /* shift_keyboard_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shift_keyboard_up@3x.png"; sourceTree = "<group>"; };
-		3202B1B51D0195F4001E7F9D /* trash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trash@2x.png"; sourceTree = "<group>"; };
-		3202B1B61D0195F4001E7F9D /* trash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trash@3x.png"; sourceTree = "<group>"; };
 		3202B1B81D0195F4001E7F9D /* UITextField+ExtendRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ExtendRange.h"; sourceTree = "<group>"; };
 		3202B1B91D0195F4001E7F9D /* UITextField+ExtendRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ExtendRange.m"; sourceTree = "<group>"; };
 		3202B1BA1D0195F4001E7F9D /* UITextInputExtendRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextInputExtendRange.h; sourceTree = "<group>"; };
@@ -149,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3201FEDE1D14072F00AC38A6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				3201FEDF1D14072F00AC38A6 /* Settings.bundle */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		3202B0D01D017C40001E7F9D = {
 			isa = PBXGroup;
 			children = (
@@ -205,31 +191,11 @@
 		3202B1A91D0195F4001E7F9D /* StockKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				3202B1AA1D0195F4001E7F9D /* keyboard */,
 				3202B1B71D0195F4001E7F9D /* TextExtendRange */,
 				3202B1BD1D0195F4001E7F9D /* ThouStockKeyboard.h */,
 				3202B1BE1D0195F4001E7F9D /* ThouStockKeyboard.m */,
 			);
 			path = StockKeyboard;
-			sourceTree = "<group>";
-		};
-		3202B1AA1D0195F4001E7F9D /* keyboard */ = {
-			isa = PBXGroup;
-			children = (
-				3202B1AB1D0195F4001E7F9D /* delete_keyboard@2x.png */,
-				3202B1AC1D0195F4001E7F9D /* delete_keyboard@3x.png */,
-				3202B1AD1D0195F4001E7F9D /* down_keyboard@2x.png */,
-				3202B1AE1D0195F4001E7F9D /* down_keyboard@3x.png */,
-				3202B1AF1D0195F4001E7F9D /* shift_keyboard@2x.png */,
-				3202B1B01D0195F4001E7F9D /* shift_keyboard@3x.png */,
-				3202B1B11D0195F4001E7F9D /* shift_keyboard_alwaysUP@2x.png */,
-				3202B1B21D0195F4001E7F9D /* shift_keyboard_alwaysUP@3x.png */,
-				3202B1B31D0195F4001E7F9D /* shift_keyboard_up@2x.png */,
-				3202B1B41D0195F4001E7F9D /* shift_keyboard_up@3x.png */,
-				3202B1B51D0195F4001E7F9D /* trash@2x.png */,
-				3202B1B61D0195F4001E7F9D /* trash@3x.png */,
-			);
-			path = keyboard;
 			sourceTree = "<group>";
 		};
 		3202B1B71D0195F4001E7F9D /* TextExtendRange */ = {
@@ -247,6 +213,7 @@
 		3202B1BF1D0195F4001E7F9D /* ThouTool */ = {
 			isa = PBXGroup;
 			children = (
+				3201FEDE1D14072F00AC38A6 /* Setting */,
 				3202B1C01D0195F4001E7F9D /* Control */,
 				3202B1CB1D0195F4001E7F9D /* Function */,
 				3202B1D51D0195F4001E7F9D /* MacroConst */,
@@ -435,22 +402,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3202B1F61D0195F4001E7F9D /* shift_keyboard@2x.png in Resources */,
-				3202B1FC1D0195F4001E7F9D /* trash@2x.png in Resources */,
-				3202B1F71D0195F4001E7F9D /* shift_keyboard@3x.png in Resources */,
-				3202B1F31D0195F4001E7F9D /* delete_keyboard@3x.png in Resources */,
-				3202B1FA1D0195F4001E7F9D /* shift_keyboard_up@2x.png in Resources */,
-				3202B1FB1D0195F4001E7F9D /* shift_keyboard_up@3x.png in Resources */,
-				3202B1F41D0195F4001E7F9D /* down_keyboard@2x.png in Resources */,
 				3202B2091D0195F4001E7F9D /* theme.bundle in Resources */,
-				3202B1F91D0195F4001E7F9D /* shift_keyboard_alwaysUP@3x.png in Resources */,
-				3202B1F81D0195F4001E7F9D /* shift_keyboard_alwaysUP@2x.png in Resources */,
 				3202B0EC1D017C40001E7F9D /* LaunchScreen.storyboard in Resources */,
+				3201FEE11D14072F00AC38A6 /* Settings.bundle in Resources */,
 				3202B0E91D017C40001E7F9D /* Assets.xcassets in Resources */,
-				3202B1FD1D0195F4001E7F9D /* trash@3x.png in Resources */,
-				3202B1F21D0195F4001E7F9D /* delete_keyboard@2x.png in Resources */,
 				3202B0E71D017C40001E7F9D /* Main.storyboard in Resources */,
-				3202B1F51D0195F4001E7F9D /* down_keyboard@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

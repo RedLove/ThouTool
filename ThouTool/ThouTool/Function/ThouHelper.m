@@ -34,6 +34,16 @@
             ];
 }
 
++ (NSString*)uuid
+{
+    CFUUIDRef puuid = CFUUIDCreate( nil );
+    CFStringRef uuidString = CFUUIDCreateString( nil, puuid );
+    NSString * result = (NSString *)CFBridgingRelease(CFStringCreateCopy( NULL, uuidString));
+    CFRelease(puuid);
+    CFRelease(uuidString);
+    return result;
+}
+
 //  十六进制转为颜色
 + (UIColor *) colorWithHexString: (NSString *) stringToConvert
 {
@@ -116,9 +126,9 @@
 }
 // 汉子转拼音
 +(NSString *)pinyin:(NSString*)sourceString {
-//    if ([sourceString containsString:@"特力"]) {
-//        NSLog(@"%@",sourceString);
-//    }
+    //    if ([sourceString containsString:@"特力"]) {
+    //        NSLog(@"%@",sourceString);
+    //    }
     NSMutableString *source = [sourceString mutableCopy];
     CFStringTransform((__bridge CFMutableStringRef)source, NULL, kCFStringTransformMandarinLatin, NO);
     CFStringTransform((__bridge CFMutableStringRef)source, NULL, kCFStringTransformStripDiacritics, NO);
@@ -194,7 +204,7 @@
     [view addSubview:detialLab];
     [selfview addSubview:view];
     return selfview;
-
+    
 }
 //弹出提示信息
 +(void)showSpeacilMessage:(NSString*)body Title:(NSString*)title timeout:(NSInteger)timeout{
@@ -207,7 +217,7 @@
     alertView.layer.borderWidth = 10;
     alertView.layer.borderColor = [UIColor grayColor].CGColor;
     alertView.alpha = 0.5;
-     [alertView show];
+    [alertView show];
     NSLog(@"%@>>>",alertView.subviews);
 }
 
@@ -218,7 +228,7 @@
     [alertView setMessage:body];
     [alertView addButtonWithTitle:@"关闭"];
     dispatch_async(dispatch_get_main_queue(), ^{
-      [alertView show];
+        [alertView show];
     });
     
     [alertView performSelector:@selector(dismissWithClickedButtonIndex:animated:) withObject:nil afterDelay:timeout];

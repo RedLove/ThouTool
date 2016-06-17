@@ -2,8 +2,8 @@
 //  ThouStockKeyboard.h
 //  FMMarket
 //
-//  Created by 石大千 on 16/3/7.
-//  Copyright © 2016年 sdcf. All rights reserved.
+//  Created by thou on 16/3/7.
+//  Copyright © 2016年 thou. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
